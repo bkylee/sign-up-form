@@ -1,0 +1,13 @@
+.leftSide{
+    display: inline-block;
+    background-image: url(picture.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 600px;
+    height: 100rem;
+}
+
+.form{
+    display: inline-block;
+    height: 100rem;
+}
