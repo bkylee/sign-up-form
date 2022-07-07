@@ -1,3 +1,7 @@
+.wrapper {
+    display: flex;
+}
+
 .leftSide{
     display: inline-block;
     background-image: url(picture.jpg);
