@@ -15,18 +15,28 @@
         <div class="form">
         <div class="headText">This is not a real online service! Welcome to my website! Feel free to create an account to stay updated on my web development journey!</div>
         <form action="" method="post">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName">
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName">
-            <label for="phone">Phone Number:</label>
-            <input type="number" id="phone" name="phone">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-            <label for="confirmP">Confirm Password:</label>
-            <input type="password" id="confirmP" name="password">
+            <fieldset>
+                <legend>Name</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <label for="confirmP">Confirm Password:</label>
+                <input type="password" id="confirmP" name="password">
+            </fieldset>
+            <button type="submit">Submit</button>
         </form>
     </div>
 </div>
