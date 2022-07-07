@@ -2,6 +2,12 @@
 
 :root{
     font-family: 'Roboto', sans-serif;
+    --imageWidth: 600px;
+
+}
+
+div[class="headText"]{
+    font-size: 1.5rem;
 }
 
 .wrapper {
@@ -11,15 +17,18 @@
 .leftSide{
     display: inline-block;
     background-image: url(picture.jpg);
+    background-position: fixed;
     background-repeat: no-repeat;
     background-size: auto;
-    width: 600px;
-    height: 100rem;
+    width: var(--imageWidth);
+    height: 100vh;
 }
 
-.form{
+form{
     display: inline-block;
-    height: 100rem;
+    height: auto;
+    box-shadow: 10px 10px 15px grey;
+    width: calc(vw - var(--imageWidth));
 }
 
 div [class="headText"] {
