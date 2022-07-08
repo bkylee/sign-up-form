@@ -2,7 +2,7 @@
 
 :root{
     font-family: 'Roboto', sans-serif;
-    --imageWidth: 1000px;
+    --imageWidth: 1500px;
 }
 
 div[class="headText"]{
@@ -19,7 +19,7 @@ div[class="headText"]{
     background-image: url(picture.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    width: var(--imageWidth);
+    width: 1000px;
     align-items: center;
     justify-content: center;
 }
@@ -28,6 +28,7 @@ form{
     display: inline-block;
     height: auto;
     box-shadow: 10px 10px 15px grey;
+    width: 100em;
 }
 
 div [class="headText"] {
@@ -42,8 +43,12 @@ fieldset {
 }
 
 #logo{
+    color: white;
     display: flex;
     font-size: 3rem;
-    height:auto;
+    margin-left: ;
     justify-content: center;
+    background-color: aliceblue;
+    background-blend-mode: screen;
+    backdrop-filter: opacity(50%);
 }
