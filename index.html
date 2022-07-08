@@ -14,36 +14,38 @@
             <div id="logo">LEEKI</div>
         </div>
     </div>
-        <div class="form">
-        <div class="headText">This is not a real online service! Welcome to my website! Feel free to create an account to stay updated on my web development journey!
-            When you sign up for whatever this service is for, you'll live your best life. This includes hanging out with the hottest dudes and wearing the finest clothes. 
-            Sign up or else I will be sad.
-        </div>
-        <form action="" method="post">
-            <fieldset>
-                <legend>Name</legend>
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" minlength="2" maxlength="15" required>
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" minlength="2" maxlength="15" required>
-            </fieldset>
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required title="Please enter a 10 digit phone number separated by hyphens">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </fieldset>
-            <fieldset>
-                <legend>Password</legend>
-                <label for="password">Create a password:</label>
-                <input type="password" id="password" name="password" required minlength="8" maxlength="20">
-                <label for="confirmP">Confirm Password:</label>
-                <input type="password" id="confirmP" name="password" required minlength="8" maxlength="20">
-            </fieldset>
-        </form>
-    <button type="submit">Submit</button>
-    </div>
+        <section>
+            <div class="headText">This is not a real online service! Welcome to my website! Feel free to create an account to stay updated on my web development journey!
+                When you sign up for whatever this service is for, you'll live your best life. This includes hanging out with the hottest dudes and wearing the finest clothes.
+                Sign up or else I will be sad.
+            </div>
+            <form action="" method="post">
+                <div id="form">
+                    <fieldset>
+                        <legend>Name</legend>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" minlength="2" maxlength="15" placeholder="   " required>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" minlength="2" maxlength="15" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required title="Please enter a 10 digit phone number separated by hyphens">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Password</legend>
+                        <label for="password">Create a password:</label>
+                        <input type="password" id="password" name="password" required minlength="8" maxlength="20">
+                        <label for="confirmP">Confirm Password:</label>
+                        <input type="password" id="confirmP" name="password" required minlength="8" maxlength="20">
+                    </fieldset>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
 </div>
 </body>
 </html>

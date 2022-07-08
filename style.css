@@ -23,8 +23,7 @@ div[class="headText"]{
     justify-content: center;
 }
 
-form{
-    display: inline-block;
+#form{
     box-shadow: 10px 10px 15px grey;
     width: 100em;
 }
@@ -53,14 +52,19 @@ fieldset {
 }
 
 button{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left:20px;
     background-color: rgb(58, 183, 255);
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 10px;
+    font-weight: bold;
 }
 
-button :hover{
+/* input:invalid{
+    border-color: red;
+} */
+
+button:hover{
     background-color: green;
 }
