@@ -2,7 +2,7 @@
 
 :root{
     font-family: 'Roboto', sans-serif;
-    --imageWidth: 1500px;
+    --imageWidth: 400px;
 }
 
 div[class="headText"]{
@@ -18,15 +18,13 @@ div[class="headText"]{
     display: flex;
     background-image: url(picture.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
-    width: 1000px;
+    width: var(--imageWidth);
     align-items: center;
     justify-content: center;
 }
 
 form{
     display: inline-block;
-    height: auto;
     box-shadow: 10px 10px 15px grey;
     width: 100em;
 }
@@ -42,13 +40,27 @@ fieldset {
     border: none;
 }
 
-#logo{
-    color: white;
-    display: flex;
-    font-size: 3rem;
-    margin-left: ;
+#logoB{
     justify-content: center;
-    background-color: aliceblue;
-    background-blend-mode: screen;
-    backdrop-filter: opacity(50%);
+    background: rgba(255, 255, 255, 0.5);
+    width:100vw;
+}
+
+#logo{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+button{
+    margin-top: 50px;
+    margin-left:20px;
+    background-color: rgb(58, 183, 255);
+    border-radius: 30px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+button :hover{
+    background-color: green;
 }

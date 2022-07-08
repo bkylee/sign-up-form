@@ -10,7 +10,9 @@
 <body>
 <div class="wrapper">
     <div class="leftSide">
-        <div id="logo">LEEKI</div>
+        <div id="logoB">
+            <div id="logo">LEEKI</div>
+        </div>
     </div>
         <div class="form">
         <div class="headText">This is not a real online service! Welcome to my website! Feel free to create an account to stay updated on my web development journey!
@@ -35,12 +37,12 @@
             <fieldset>
                 <legend>Password</legend>
                 <label for="password">Create a password:</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="password" required minlength="8" maxlength="20">
                 <label for="confirmP">Confirm Password:</label>
-                <input type="password" id="confirmP" name="password" required>
+                <input type="password" id="confirmP" name="password" required minlength="8" maxlength="20">
             </fieldset>
-            <button type="submit">Submit</button>
         </form>
+    <button type="submit">Submit</button>
     </div>
 </div>
 </body>
