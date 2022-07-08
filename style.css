@@ -2,8 +2,7 @@
 
 :root{
     font-family: 'Roboto', sans-serif;
-    --imageWidth: 600px;
-
+    --imageWidth: 1000px;
 }
 
 div[class="headText"]{
@@ -12,28 +11,26 @@ div[class="headText"]{
 
 .wrapper {
     display: flex;
+    height: 100vh;
 }
 
 .leftSide{
     display: inline-block;
     background-image: url(picture.jpg);
-    background-position: fixed;
     background-repeat: no-repeat;
     background-size: auto;
     width: var(--imageWidth);
-    height: 100vh;
 }
 
 form{
     display: inline-block;
     height: auto;
     box-shadow: 10px 10px 15px grey;
-    width: calc(vw - var(--imageWidth));
 }
 
 div [class="headText"] {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 fieldset {
