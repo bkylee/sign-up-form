@@ -65,6 +65,18 @@ button{
     border-color: red;
 } */
 
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+legend{
+    padding:20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 button:hover{
     background-color: green;
 }
