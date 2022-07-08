@@ -15,11 +15,13 @@ div[class="headText"]{
 }
 
 .leftSide{
-    display: inline-block;
+    display: flex;
     background-image: url(picture.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     width: var(--imageWidth);
+    align-items: center;
+    justify-content: center;
 }
 
 form{
@@ -37,4 +39,11 @@ fieldset {
     margin-top: 25px;
     margin-bottom: 25px;
     border: none;
+}
+
+#logo{
+    display: flex;
+    font-size: 3rem;
+    height:auto;
+    justify-content: center;
 }
