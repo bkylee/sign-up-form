@@ -5,6 +5,8 @@
     --imageWidth: 400px;
 }
 
+body{margin: 0;}
+
 div[class="headText"]{
     font-size: 2rem;
 }
@@ -18,6 +20,7 @@ div[class="headText"]{
     display: inline-block;
     background-image: url(picture.jpg);
     background-repeat: no-repeat;
+    width:400px;
 }
 
 #form{
