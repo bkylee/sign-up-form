@@ -15,17 +15,13 @@ div[class="headText"]{
 }
 
 .leftSide{
-    display: flex;
+    display: inline-block;
     background-image: url(picture.jpg);
     background-repeat: no-repeat;
-    width: var(--imageWidth);
-    align-items: center;
-    justify-content: center;
 }
 
 #form{
     box-shadow: 10px 10px 15px grey;
-    width: 100em;
 }
 
 div [class="headText"] {
@@ -39,15 +35,14 @@ fieldset {
     border: none;
 }
 
-#logoB{
-    background: rgba(255, 255, 255, 0.5);
-    width:100vw;
-}
-
 #logo{
     color: black;
     font-size: 3rem;
+    background: rgba(255, 255, 255, 0.5);
+    width: 400px;
     text-align: center;
+    padding: 10px 0;
+    margin-top: 352px;
 }
 
 button{
